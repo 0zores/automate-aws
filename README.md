@@ -4,6 +4,18 @@ Python script to automate instance creation in AWS using boto3
 **Dependencies:**
 - Python 2.7
 - boto3 (`pip install boto3`)
+ 
+**Required**
+- Creation of the credentials file: ~/.aws/credentials
+
+```
+[default]
+# The access key for your AWS account
+aws_access_key_id=<YOUR ACCESS KEY ID>
+
+# The secret key for your AWS account
+aws_secret_access_key=<YOUR SECRET KEY>
+```
     
 **Usage:**
 
