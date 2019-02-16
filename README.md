@@ -1,4 +1,5 @@
-# automate-aws (DEPRECATED)
+# automate-aws
+# ==== DEPRECATED ====
 Python script to automate instance creation in AWS using boto3
 
 **Dependencies:**
